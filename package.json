@@ -1,0 +1,17 @@
+{
+    "buildNpmdoc":"generator-react-fullstack",
+    "devDependencies": {
+        "generator-react-fullstack": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "name":"npmdoc-generator-react-fullstack",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-generator-react-fullstack"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh"
+    },
+    "version": "0.0.1"
+}
